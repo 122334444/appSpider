@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #00a6ff;
+}
+
+#app {
+    width: 80%;
+    max-width: 600px;
+    background-color: #26f7a7;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#ingredient-list {
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+.ingredient {
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+#recipe-results {
+    margin-top: 20px;
+}
+
+.recipe {
+    border-bottom: 2px solid #ddd;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    
+}

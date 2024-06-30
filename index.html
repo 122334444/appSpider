@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recipe Finder</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="app">
+        <h1>Recipe Finder</h1>
+        <div id="auth-section">
+            <button id="login-button">Login</button>
+            <button id="register-button">Register</button>
+            <button id="logout-button" style="display: none;">Logout</button>
+        </div>
+        <div id="user-recipes-section" style="display: none;">
+            <h2>Publish Your Recipe</h2>
+            <form id="publish-recipe-form">
+                <input type="text" id="recipe-name" placeholder="Recipe Name" required>
+                <input type="text" id="recipe-ingredients" placeholder="Ingredients (comma separated)" required>
+                <input type="text" id="recipe-procedure" placeholder="Procedure" required>
+                <input type="text" id="recipe-image" placeholder="Image URL" required>
+                <button type="submit">Publish</button>
+            </form>
+        </div>
+        <div id="ingredient-list"></div>
+        <button id="find-recipes">Find Recipes</button>
+        <div id="recipe-results"></div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
